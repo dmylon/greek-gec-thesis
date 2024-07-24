@@ -1,2 +1,3 @@
-# greek-gec-thesis
-A Grammatical Error Correction System for the Greek Language
+# Development of a Grammatical Error Correction Model for the Greek Language
+
+## Description
