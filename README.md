@@ -12,8 +12,14 @@ The files included in this repository are the following:
 
 - **greek_dataset_production.ipynb**: This notebook contains the code for producing a Synthetic Grammatical Error Correction Dataset in Greek along with some statistics associated with the dataset.
 
-- **greek_synthetic_training.ipynb**: This notebook contains the code for finetuning a model in the new Syntetic dataset created in the previously mentioned notebook.
+- **greek_synthetic_training.ipynb**: This notebook contains the code for finetuning a model in the new Synthetic dataset created in the previously mentioned notebook.
 
 - **datasets**: A folder containing all necessary synthetic dataset files.
+    - **train_dataset_60k.csv**: Training split of the dataset consisting of 48k examples.
+    - **validation_dataset_60k.csv**: Validation split of the dataset consisting of 6k examples.
+    - **test_dataset_60k.csv**: Testing split of the dataset consisting of 6k examples.
+    - **error_stats.csv**: A complementary file containing information about each error.
+
+  
   
 
