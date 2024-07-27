@@ -8,7 +8,7 @@ This thesis project focuses on the creation of a Grammatical Error Correction Sy
 
 The files included in this repository are the following:
 
-- **greek_basic_training.ipynb**: This notebooks contains the code for finetuning the **Greek-T5-GreekSum** model introduced in [Giarelis et al., 2023](https://arxiv.org/pdf/2311.07767). The finetuning process involves two already existing datasets for the Grammatical Error Correction Task in Greek Language, namely GNC and GLC2 introduced in [Korre et al., 2021](https://aclanthology.org/2021.ranlp-1.81.pdf) and [Korre and Pavlopoulos, 2022](https://aclanthology.org/2022.lrec-1.532.pdf) respectively. The public datasets can be found in this [repo](https://github.com/katkorre/elerrant)
+- **greek_basic_training.ipynb**: This notebooks contains the code for finetuning the **Greek-T5-GreekSum** model introduced in [Giarelis et al., 2023](https://arxiv.org/pdf/2311.07767). The finetuning process involves two already existing datasets for the Grammatical Error Correction Task in Greek Language, namely GNC and GLC2 introduced in [Korre et al., 2021](https://aclanthology.org/2021.ranlp-1.81.pdf) and [Korre and Pavlopoulos, 2022](https://aclanthology.org/2022.lrec-1.532.pdf) respectively. The public datasets can be found in this [repo](https://github.com/katkorre/elerrant).
 
 - **greek_dataset_production.ipynb**: This notebook contains the code for producing a Synthetic Grammatical Error Correction Dataset in Greek along with some statistics associated with the dataset. The created dataset contains synthetic errors using Greek Wikipedia texts which can be found in this [link](https://huggingface.co/datasets/wikimedia/wikipedia).
 
